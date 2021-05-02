@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css'
-import Arif from '../../Image/20210501_041039-removebg-preview.png'
+// import Arif from '../../Image/20210501_041039-removebg-preview.png'
 import Typewriter from 'typewriter-effect'
 
 const Header = () => {
@@ -12,7 +12,7 @@ const Header = () => {
                  <div className="text-2">Arif Ullah</div>
                  <div className="text-3">And I am a Web <span> <Typewriter
                        onInit={(typewriter) =>{
-                         typewriter.typeString("developer").pauseFor(2000) .deleteAll() .typeString("Developer"). start();
+                         typewriter.typeString("developer").pauseFor(2000).deleteAll().typeString("Developer").start();
                      } }
                      />
                     
