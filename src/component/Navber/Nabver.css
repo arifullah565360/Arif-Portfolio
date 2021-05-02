@@ -1,0 +1,72 @@
+.navBar{
+    background: transparent;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 30px 0;
+    font-family:'ubuntu', sans-serif;
+    /* background-color: rgb(187, 39, 39); */
+}
+.menu-btn{
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+
+.navBar.active{
+    padding: 15px 0;
+    background: linear-gradient(rgb(83, 164, 231),rgba(4, 20, 36, 0.966));
+}
+
+.navBar nav{
+    line-height: 40px;
+    font-size: 20px;
+    height: 50px;
+
+}
+.max-width{
+    max-width: 1300px;
+    padding:  0 80px;
+    margin :auto;
+}
+.navBar .max-width{
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+
+}
+.navBar.logo span{
+    color: crimson;
+}
+nav a:hover{
+    color: crimson;
+}
+
+
+
+/* responsive media query start */
+@media (max-width: 990px){
+    .max-width{
+        padding: 0 50px;
+    }
+    nav a{
+        position: fixed;
+        /* height:100vh;
+        width: 100%;
+        left: 0;
+        top: 0; */
+        background: #111;
+    }
+    .nav .menu a{
+        
+    }
+}

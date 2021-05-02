@@ -1,0 +1,56 @@
+.skills .title{
+    position: relative;
+    text-align: center;
+    font-size: 43px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    margin-top: 70px;
+}
+
+
+
+.skills .skills-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.textTools{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.textTitle{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.skills .skills-content .right{
+    width:45%;
+}
+.skills .skills-content .left{
+    width:45%;
+}
+
+
+@media (max-width: 990px){
+  
+    .max-width{
+        max-width:800px;
+    }
+    .skills .skills-content .column{
+        width: 100%;
+    }
+    .skills .skills-content .left{
+        
+        justify-content: center;
+        margin: 0 auto 60px;
+     }
+     .skills .skills-content .right{
+        flex: 100%;
+       }
+}
