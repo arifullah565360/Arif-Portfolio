@@ -1,0 +1,32 @@
+.project{
+    color: black;
+    background-color: #fff;
+    padding: 25px;
+}
+.project .max-width .title{
+    color: crimson;
+    position: relative;
+    text-align: center;
+    font-size: 43px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    margin-top: 70px;
+}
+
+
+
+.project-content .left{
+    padding: 20px;
+    text-align: center;
+    width: 45%;
+    border:1px rgb(177, 226, 226) solid  ;
+    margin: 20px;
+}
+.project .project-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}

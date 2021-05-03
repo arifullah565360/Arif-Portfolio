@@ -27,10 +27,10 @@ window.addEventListener('scroll', changeBackground)
                 <nav className="menu">
                     
                     <Link to="/home">Home</Link>
-                    <Link to="/order">About</Link>
-                    <Link to="/admin">Projects</Link>
-                    <Link to="/order">Contact</Link>
-                    <Link to="/admin">Blog</Link>
+                    <Link to="/about">About</Link>
+                    <Link to="/project">Projects</Link>
+                    <Link to="/contact">Contact</Link>
+                    <Link to="/blog">Blog</Link>
                 </nav>
                 <div className="menu-btn">
                     <i className="fas fa-bars">Menu</i>

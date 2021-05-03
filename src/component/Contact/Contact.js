@@ -1,5 +1,12 @@
-import emailjs  from 'emailjs-com';
+import emailjs from 'emailjs-com';
 import React from 'react';
+import './Contact.css';
+import github from '../../Image/Icon/giit.svg';
+import gmail from '../../Image/Icon/ggg.png'
+import linkidn from '../../Image/Icon/linkedin-512.png'
+import Navber from '../Navber/Navber';
+import Header from '../Header/Header';
+
 
 
 
@@ -9,24 +16,47 @@ const Contact = () => {
 
     emailjs.sendForm('Arifullah565360', 'template_bdo9lor', e.target, 'user_nyx2anJ22xArJio4tUuoQ')
       .then((result) => {
-          console.log(result.text);
+        console.log(result.text);
       }, (error) => {
-          console.log(error.text);
+        console.log(error.text);
       });
-      e.target.reset()
+    e.target.reset()
   }
 
   return (
-    <form className="contact-form" onSubmit={sendEmail}>
-      <input type="hidden" name="name" />
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
-    </form>
+    <div>
+      <Navber></Navber>
+      <Header></Header>
+    <section className="Contact" id="skills">
+      <div className="max-width">
+        <h2 className="title">Contact</h2>
+        <div className="Contact-content">
+          <div className="column left">
+            <form className="contact-form" onSubmit={sendEmail}>
+
+              <input className="inputName" placeholder="Your Name" type="text" name="name" />
+              <br />
+
+              <input className="inputemail" placeholder="Enter Your email" type="email" name="email" />
+              <br />
+
+              <textarea className="inputmessage" placeholder="Message" name="message" />
+              <br />
+              <input  class="btn btn-outline-danger" type="submit" value="Send" />
+            </form>
+          </div>
+
+          <div className="column right">
+            
+            <a href={`https://github.com/arifullah565360`}><img src={github} alt="" />  </a>
+            <a href={`https://github.com/arifullah565360`}><img src={gmail} alt="" />  </a>
+            <a href={`https://www.linkedin.com/in/arif-ullah-5a6008211/`}><img src={linkidn} alt="" />  </a>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    </div>
   );
 };
 

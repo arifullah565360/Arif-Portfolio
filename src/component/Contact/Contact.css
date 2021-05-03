@@ -1,0 +1,76 @@
+.Contact{
+    background: #fff;
+    padding: 20px;
+}
+
+.Contact .Contact-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.Contact .max-width .title{
+    color: crimson;
+    position: relative;
+    text-align: center;
+    font-size: 43px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    margin-top: 70px;
+}
+.Contact .Contact-content .inputName{
+    border-radius: 7px;
+    width: 400px;
+    height: 40px;
+    margin: 20px;
+  
+}
+.Contact .Contact-content .inputemail{
+    border-radius: 7px;
+    width: 400px;
+    height: 40px;
+    margin: 20px;
+  
+}
+.Contact .Contact-content .inputmessage{
+    border-radius: 7px;
+    width: 400px;
+    height: 80px;
+    margin: 20px;
+  
+}
+.Contact .Contact-content .left{
+    width:50%;
+    text-align: center;
+    border-right: 1px solid gray;
+    
+}
+.Contact .Contact-content .right{
+    width:50%;
+    text-align: center;
+}
+.Contact .Contact-content .right img{
+    text-align: center;
+    width: 80px;
+    margin: 20px;
+}
+
+@media (max-width: 1040px){
+  
+    .max-width{
+        max-width:800px;
+    }
+    .Contact .Contact-content .column{
+        width: 100%;
+    }
+    .Contact .Contact-content .left{
+        
+        justify-content: center;
+        margin: 0 auto 60px;
+     }
+     .Contact .Contact-content .right{
+        flex: 100%;
+       }
+}

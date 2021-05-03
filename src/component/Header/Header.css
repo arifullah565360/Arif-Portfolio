@@ -22,4 +22,21 @@
     color: crimson;
     font-weight: 500;
 }
+.home .home-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.home .home-content .left{
+    width: 50%;
+}
+.home .home-content .right{
+    width: 50%;
+}
+.home .home-content .right img{
+   margin-left: 300px;
+   width: 400px;
+}
 
