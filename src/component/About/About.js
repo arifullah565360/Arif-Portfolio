@@ -2,13 +2,13 @@ import React from 'react';
 import './About.css'
 import ArifPrf from '../../Image/arifprof.jpg'
 import Navber from '../Navber/Navber';
-import Header from '../Header/Header';
+
 
 const About = () => {
     return (
         <div> 
             <Navber></Navber>
-            <Header></Header>
+          
         <section className="about" id="about">
         <div className="max-width">
             <h2 className="title">About</h2>

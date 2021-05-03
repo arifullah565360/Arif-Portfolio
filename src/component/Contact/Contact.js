@@ -5,7 +5,7 @@ import github from '../../Image/Icon/giit.svg';
 import gmail from '../../Image/Icon/ggg.png'
 import linkidn from '../../Image/Icon/linkedin-512.png'
 import Navber from '../Navber/Navber';
-import Header from '../Header/Header';
+
 
 
 
@@ -26,7 +26,7 @@ const Contact = () => {
   return (
     <div>
       <Navber></Navber>
-      <Header></Header>
+      
     <section className="Contact" id="skills">
       <div className="max-width">
         <h2 className="title">Contact</h2>

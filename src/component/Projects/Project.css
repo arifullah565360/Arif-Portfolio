@@ -1,6 +1,5 @@
 .project{
-    color: black;
-    background-color: #fff;
+    
     padding: 25px;
 }
 .project .max-width .title{
@@ -17,6 +16,7 @@
 
 
 .project-content .left{
+    background: #fff;
     padding: 20px;
     text-align: center;
     width: 45%;
@@ -24,6 +24,7 @@
     margin: 20px;
 }
 .project .project-content{
+ 
     display: flex;
     flex-wrap: wrap;
     align-items: center;

@@ -1,11 +1,14 @@
-
+.about{
+    padding: 25px;
+}
 .about .title{
     position: relative;
     text-align: center;
-    font-size: 40px;
+    font-size: 43px;
     font-weight: 500;
     margin-bottom: 60px;
     padding-bottom: 20px;
+    margin-top: 70px;
 }
 .about .title::before{
     content:"";

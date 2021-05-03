@@ -1,5 +1,5 @@
 .Contact{
-    background: #fff;
+  
     padding: 20px;
 }
 
@@ -52,6 +52,7 @@
     text-align: center;
 }
 .Contact .Contact-content .right img{
+   
     text-align: center;
     width: 80px;
     margin: 20px;
