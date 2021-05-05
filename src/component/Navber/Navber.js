@@ -1,10 +1,7 @@
 import React from 'react';
-
 import { useState } from 'react';
-
 import { Link } from 'react-router-dom';
 import './Nabver.css'
-
 const Navber = () => {
     const [navber , setNavber] = useState(false);
 
