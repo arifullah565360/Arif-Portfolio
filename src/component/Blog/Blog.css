@@ -1,13 +1,21 @@
 .blog{
-    text-align: center;
-     padding: 70px;
+    padding: 70px;
 }
 .blog .title{
     position: relative;
     text-align: center;
     font-size: 43px;
     font-weight: 500;
-    margin-bottom: 60px;
-    padding-bottom: 20px;
+ 
+    
     margin-top: 70px;
+}
+.text{
+    margin-bottom: 40px;
+    text-align: center;
+    color: crimson;
+}
+.blog .max-width .component{
+    margin-bottom: 30px;
+    padding: 10px;
 }
