@@ -1,10 +1,10 @@
 import emailjs from 'emailjs-com';
 import React from 'react';
 import './Contact.css';
-import github from '../../Image/Icon/giit.svg';
+import github from '../../Image/Icon/giit.png';
 import gmail from '../../Image/Icon/ggg.png'
 import linkidn from '../../Image/Icon/linkedin-512.png'
-import Navber from '../Navber/Navber';
+
 
 
 
@@ -25,7 +25,7 @@ const Contact = () => {
 
   return (
     <div>
-      <Navber></Navber>
+    
       
     <section className="Contact" id="skills">
       <div className="max-width">

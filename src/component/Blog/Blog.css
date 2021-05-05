@@ -1,0 +1,13 @@
+.blog{
+    text-align: center;
+     padding: 70px;
+}
+.blog .title{
+    position: relative;
+    text-align: center;
+    font-size: 43px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    margin-top: 70px;
+}

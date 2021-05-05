@@ -1,9 +1,10 @@
 .project{
-    
+    color: black;
+    background-color: #060c21;
     padding: 25px;
 }
 .project .max-width .title{
-    color: crimson;
+    color: rgb(166, 255, 0);
     position: relative;
     text-align: center;
     font-size: 43px;
@@ -12,22 +13,88 @@
     padding-bottom: 20px;
     margin-top: 70px;
 }
-
-
-
-.project-content .left{
-    background: #fff;
-    padding: 20px;
+.project .project-content .left{
+    background: #ffffff;
     text-align: center;
     width: 45%;
-    border:1px rgb(177, 226, 226) solid  ;
+    position: relative;
+    padding: 20px;
     margin: 20px;
+    border-radius: 10px;
+    
+}
+.project .project-content .left img{
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+/* .project .project-content .left ::before{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background-color: rgb(255, 255, 255);
+    z-index: -2;
+} */
+/* .project .project-content .left ::after{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background-color: #fff;
+    z-index: -2;
+    filter: blur(10px);
+} */
+.project .project-content ::before , .project .project-content .left ::after{
+    background: linear-gradient(235deg, #89ff00, #060c21, #00bcd4)
 }
 .project .project-content{
- 
+    
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 40px;
+}
+
+
+
+@media (max-width: 990px){
+  
+    .max-width{
+        max-width:800px;
+    }
+    .project .project-content .column{
+        width: 100%;
+    }
+  
+    .project .project-content .left{
+        
+        justify-content: center;
+        margin: 0 auto 60px;
+     }
+   
+}
+@media only screen and (max-width: 600px) {
+    .max-width{
+        max-width:600px;
+    }
+    .project .project-content .column{
+        width: 100%;
+    }
+    .project .project-content .left img{
+        width: 300px;
+    }
+    .project .project-content .left{
+        
+        justify-content: center;
+        margin: 0 auto 60px;
+     }
+    .project .project-content.right{
+        flex: 100%;
+       }
 }

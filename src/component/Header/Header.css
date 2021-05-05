@@ -1,8 +1,15 @@
 .home{
   display: flex;
+  width: 100%;
   height: 100vh;
   min-height: 500px;  
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  overflow: hidden;
 }
+
+
 .home .max-width {
     margin:auto 0 auto 40px;
 }
@@ -36,7 +43,7 @@
     width: 50%;
 }
 .home .home-content .right img{
-   margin-left: 300px;
+   margin-left: 150px;
    width: 400px;
 }
 

@@ -1,12 +1,12 @@
 import React from 'react';
-import Header from '../Header/Header';
+import './Blog.css'
 import Navber from '../Navber/Navber';
 
 const Blog = () => {
     return (
         <div>
         <Navber></Navber>
-        <Header></Header>
+        
        
         <section className="blog" id="blog">
             <div className="max-width">
