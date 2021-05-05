@@ -1,6 +1,5 @@
 import React from 'react';
 import './Header.css'
-import Arif from '../../Image/20210501_041039-removebg-preview.png'
 import Typewriter from 'typewriter-effect'
 
 const Header = () => {
