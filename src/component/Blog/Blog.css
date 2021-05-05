@@ -2,20 +2,23 @@
     padding: 70px;
 }
 .blog .title{
+    margin-left: 150px;
+    border-bottom: 1px solid #fff;
+    width: 800px;
+    padding: 5px;
     position: relative;
     text-align: center;
-    font-size: 43px;
-    font-weight: 500;
- 
-    
-    margin-top: 70px;
-}
-.text{
+    font-size: 30px;
     margin-bottom: 40px;
-    text-align: center;
+    font-weight: 500;
     color: crimson;
+     margin-top: 70px;
 }
-.blog .max-width .component{
+
+.blog .max-width .text h4{
+    color: cyan;
+}
+.blog .max-width .text{
     margin-bottom: 30px;
     padding: 10px;
 }

@@ -18,7 +18,7 @@ const Header = () => {
                         </div>
                     </div>
                     <div className="column right">
-                        <img src={Arif} alt=""/>
+                      
                     </div>
                 </div>
             </div>
